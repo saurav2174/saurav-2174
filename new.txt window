@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Open New Window</title>
+<script>varmyWindow;function openWindow(){
+myWindow= window.open("http://www.w3schools.com","_blank", "width=400,height=400");
+}
+</script>
+</head>
+<body><button onclick="openWindow()">Open New Window </button></body>
+</html>
